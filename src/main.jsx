@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import {
   ArrowRight, BusFront, CalendarDays, Check, ChevronRight, Clock3, Compass,
-  Instagram, MapPin, Menu, MessageCircle, Search, ShieldCheck, Sparkles, Star, X
+  MapPin, Menu, MessageCircle, Search, ShieldCheck, Sparkles, Star, X
 } from "lucide-react";
 import "./styles.css";
 
@@ -196,7 +196,7 @@ function App() {
         </section>
 
         <section className="socialProof">
-          <div className="sectionHead"><div><span className="kicker">TRAVELLER STORIES</span><h2>Come back with <i>stories.</i></h2></div><a className="textLink" href="https://instagram.com/travique_trip_makers" target="_blank" rel="noreferrer">Instagram <Instagram size={16} /></a></div>
+          <div className="sectionHead"><div><span className="kicker">TRAVELLER STORIES</span><h2>Come back with <i>stories.</i></h2></div><a className="textLink" href="https://instagram.com/travique_trip_makers" target="_blank" rel="noreferrer">Instagram</a></div>
           <div className="proofGrid">
             <div className="quoteCard featured"><Sparkles size={17} /><p>“Travel more. Worry less.”</p><span>THE TRAVIQUE PROMISE</span></div>
             <div className="quoteCard"><Star size={16} /><p>Built for groups, families and friends who just want the trip to feel easy.</p><span>GROUP TOURS</span></div>
